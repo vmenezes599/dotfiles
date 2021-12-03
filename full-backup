@@ -1,0 +1,157 @@
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-x=1108
+window-y=336
+
+[io/elementary/appcenter/settings]
+last-refresh-time=int64 1638526893
+window-maximized=false
+window-position=(1028, 8)
+window-size=(1012, 1136)
+
+[org/gnome/Geary]
+folder-list-pane-position-horizontal=100
+messages-pane-position=351
+migrated-config=true
+
+[org/gnome/control-center]
+last-panel='keyboard'
+
+[org/gnome/desktop/app-folders/folders/Pop-Office]
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-System]
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+name='System'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-Utility]
+apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
+name='Utilities'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/pop/jasper-van-der-meij-97274-edit.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+enable-hot-corners=false
+gtk-im-module='gtk-im-context-simple'
+
+[org/gnome/desktop/notifications]
+application-children=['io-elementary-appcenter', 'gnome-network-panel']
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/pop/jasper-van-der-meij-97274-edit.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/wm/keybindings]
+cycle-windows=['<Alt>Escape']
+cycle-windows-backward=['<Shift><Alt>Escape']
+switch-applications=['<Super>Tab']
+switch-applications-backward=['<Shift><Super>Tab']
+switch-to-workspace-1=['<Super>Home', '<Shift><Alt>exclam', '<Primary><Alt>1']
+switch-to-workspace-2=['<Shift><Alt>at', '<Primary><Alt>2']
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+num-workspaces=2
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gnome-system-monitor]
+maximized=true
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='all'
+window-state=(2048, 1152, 0, 0)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/proctree]
+col-0-visible=true
+col-0-width=435
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=8
+sort-order=0
+
+[org/gnome/mutter]
+dynamic-workspaces=false
+experimental-features=['x11-randr-fractional-scaling']
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(2032, 984)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+email=@as []
+home=['<Super>f', '<Super>e']
+terminal=['<Super>t', '<Super>x']
+
+[org/gnome/shell]
+favorite-apps=['org.gnome.Nautilus.desktop', 'code.desktop', 'org.gnome.Terminal.desktop', 'google-chrome.desktop']
+
+[org/gnome/shell/extensions/dash-to-dock]
+extend-height=false
+manualhide=false
+
+[org/gnome/shell/extensions/pop-cosmic]
+overlay-key-action='LAUNCHER'
+
+[org/gnome/shell/extensions/pop-shell]
+gap-inner=uint32 2
+gap-outer=uint32 2
+tile-by-default=false
+tile-swap-down=['<Primary>Down', '<Primary>KP_Down', '<Primary>j']
+tile-swap-left=['<Primary>Left', '<Primary>KP_Left', '<Primary>h']
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/terminal/legacy/keybindings]
+copy='<Primary><Shift>c'
+new-tab='<Primary>t'
+paste='<Shift>Insert'
+switch-to-tab-1='<Primary>1'
+switch-to-tab-2='<Primary>2'
+switch-to-tab-3='<Primary>3'
+switch-to-tab-4='<Primary>4'
+switch-to-tab-5='<Primary>5'
+switch-to-tab-6='<Primary>6'
